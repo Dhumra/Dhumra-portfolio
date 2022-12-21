@@ -1,3 +1,4 @@
+
 import React from 'react';
 import "./portfolio.css";
 import IMG1 from '../../assets/portfolio1.png'
@@ -11,9 +12,9 @@ const data = [
     {
         id:1,
         image:IMG1 ,
-        title:'E-commerce Clothing Website',
-        github:'https://github.com/Dhumra/Responsive-E-commerce-Website',
-        demo:'https://dhumra.github.io/Responsive-E-commerce-Website/'
+        title:'Travel Website',
+        github: 'https://github.com/Dhumra/TravelWebsite',
+        demo:  'https://travel-website-pied-xi.vercel.app/',
     },
     {
         id:2,
