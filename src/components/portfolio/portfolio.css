@@ -55,7 +55,11 @@
     }
   }
   
-#portfolio > div > article:nth-child(n) > div > img{
+  
+  @media screen and (max-width: 350px){  
+    
+    
+  }
+  #portfolio > div > article:nth-child(n) > div > img{
     border-radius: 10px;
   }
-  

@@ -19,7 +19,7 @@ const Info = () => {
 
         <div className="about__box">
            <i class="uil uil-react about__icon"></i>
-           <h3 className="about__title">01+</h3>
+           <h3 className="about__title">04+</h3>
            <span className="about__subtitle">ReactJS projects</span>
         </div>
 
