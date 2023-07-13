@@ -18,51 +18,8 @@ const Services = () => {
 
             <div className="services__content">
                 <div>
-                    <i className="uil uil-arrow services__icon"></i>
-                    <h3 className="services__title">Ui/Ux <br/>  Designer </h3>
-                </div>
-
-                <span className="services__button" onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right services__button-icon"></i></span>
-
-                <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
-                    <div className="services__modal-content">
-                        <i onClick={() => toggleTab(0) } className="uil uil-times services__modal-close"></i>
-
-                        <h3 className="services__modal-title">Ui/Ux Designer  </h3>
-                        <p className="services__modal-description">Service with more than 3 years of experience. Providing quality work to clients and compamies.</p>
-
-                        <ul className="services__modal-services grid">
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I can help understand the User requirements.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I can create wireframes and mockups.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I have made designs using Canva.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I have experience working with Figma.</p>
-                            </li>
-
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div className="services__content">
-                <div>
                     <i className="uil uil-web-grid services__icon"></i>
-                    <h3 className="services__title">FrontEnd <br/> Developer </h3>
+                    <h3 className="services__title">Front-End <br/> Developer </h3>
                 </div>
 
                 <span className="services__button" onClick={() => toggleTab(2)}>View More <i className="uil uil-arrow-right services__button-icon"></i></span>
@@ -141,6 +98,49 @@ const Services = () => {
                                 Testing the user interface (UI) to improve performance</p>
                             </li>
 
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div className="services__content">
+                <div>
+                    <i className="uil uil-arrow services__icon"></i>
+                    <h3 className="services__title">Full-Stack <br/> Developer </h3>
+                </div>
+
+                <span className="services__button" onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+
+                <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
+                    <div className="services__modal-content">
+                        <i onClick={() => toggleTab(0) } className="uil uil-times services__modal-close"></i>
+
+                        <h3 className="services__modal-title">Full-Stack Web Developer  </h3>
+                        <p className="services__modal-description">Service with more than 1 years of experience. Providing quality work to clients and compamies.</p>
+
+                        <ul className="services__modal-services grid">
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Design client-side and server-side architecture.</p>
+                            </li>
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Develop and manage well-functioning databases and applications.</p>
+                            </li>
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Build features and applications with a mobile responsive design.</p>
+                            </li>
+
+                            <li className="services__modal-service">
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className="services__modal-info">Work with development teams and product managers to ideate software solutions.</p>
+                            </li>
 
 
                         </ul>
